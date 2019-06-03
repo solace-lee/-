@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabBar/home",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/tabBar/classify",
+            "style" : {
+				"navigationBarTitleText": "助力乡村"
+				}
+        }
+		,{
+		    "path" : "pages/tabBar/car",
+		    "style" : {}
+		}
+		,{
+		    "path" : "pages/tabBar/my",
+		    "style" : {}
+		}
+    ],
+	
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#00000000",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#00ae87",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tabBar/home",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/homeHL.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabBar/classify",
+				"iconPath": "static/img/classify.png",
+				"selectedIconPath": "static/img/classifyHL.png",
+				"text": "分类"
+			}, {
+				"pagePath": "pages/tabBar/car",
+				"iconPath": "static/img/car.png",
+				"selectedIconPath": "static/img/carHL.png",
+				"text": "购物车"
+			}, {
+				"pagePath": "pages/tabBar/my",
+				"iconPath": "static/img/my.png",
+				"selectedIconPath": "static/img/myHL.png",
+				"text": "我的"
+			}
+		]
+	}
+}
